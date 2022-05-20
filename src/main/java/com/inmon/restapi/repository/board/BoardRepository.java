@@ -1,0 +1,9 @@
+package com.inmon.restapi.repository.board;
+
+
+import com.inmon.restapi.entity.board.Board;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BoardRepository extends JpaRepository<Board, Long> {
+
+}
